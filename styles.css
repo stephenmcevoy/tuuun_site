@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'NewRailAlphabetMedium';
+  src: url('A2-Type New Rail Alphabet Medium.ttf');
+}
+
+@font-face {
+  font-family: 'NewRailAlphabetBold';
+  src: url('A2-Type New Rail Alphabet Bold.ttf');
+}
+
+h1 {
+  font-family: 'NewRailAlphabetBold', monospace;
+}
+
 body {
-  font-family: '';
+  font-family: 'NewRailAlphabetMedium', sans-serif;
 }
