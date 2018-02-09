@@ -9,9 +9,23 @@
 }
 
 h1 {
-  font-family: 'NewRailAlphabetBold', monospace;
+  font-family: 'NewRailAlphabetBold', "Helvetica", sans-serif;
+  font-size: 120px;
+  margin-top: 0;
+
+}
+
+h2 {
+  font-family: "NewRailAlphabetBold", "Helvetica", sans-serif;
+  border: 0;
+  margin-bottom: 0;
 }
 
 body {
-  font-family: 'NewRailAlphabetMedium', sans-serif;
+  font-family: 'NewRailAlphabetMedium', "Helvetica", sans-serif;
+  font-size: 55px;
+}
+
+a {
+    color: hotpink;
 }
