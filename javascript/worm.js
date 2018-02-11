@@ -1,3 +1,6 @@
+var background = new Path.Rectangle(view.bounds);
+background.fillColor = 'white';
+
 var circle = new Path.Circle(new Point(80, 50), 35);
 circle.fillColor = 'red';
 
