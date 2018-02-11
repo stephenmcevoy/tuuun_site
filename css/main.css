@@ -10,6 +10,10 @@
   height: 2100px;
 }
 
+.dropdown-content {
+  display: none;
+}
+
 h1 {
   font-family: 'Space Mono', monospace;
   font-weight: bold;
