@@ -1,5 +1,5 @@
 console.log("loaded");
 
-$(".release").click(function() {
-  console.log("clicked");
-});
+$(".release").css("backgroundColor", "red");
+
+$("h1").css("color", "red");
