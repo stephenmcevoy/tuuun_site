@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'NewRailAlphabetMedium';
-  src: url('fonts/A2-Type New Rail Alphabet Medium.ttf');
+  src: url('https://github.com/stephenmcevoy/tuuun_site/blob/master/fonts/A2-Type%20New%20Rail%20Alphabet%20Medium.ttf');
 }
 
 @font-face {
   font-family: 'NewRailAlphabetBold';
-  src: url('fonts/A2-Type New Rail Alphabet Bold.ttf');
+  src: url('https://github.com/stephenmcevoy/tuuun_site/blob/master/fonts/A2-Type%20New%20Rail%20Alphabet%20Bold.ttf');
 }
 
 .container {
@@ -17,7 +17,7 @@
   z-index: 1;
   position: absolute;
   width: 100%;
-  height: 3000px;
+  height: 2100px;
 }
 
 h1 {
