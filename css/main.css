@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'NewRailAlphabetMedium';
-  src: url('A2-Type New Rail Alphabet Medium.ttf');
+  src: url('fonts/A2-Type New Rail Alphabet Medium.ttf');
 }
 
 @font-face {
   font-family: 'NewRailAlphabetBold';
-  src: url('A2-Type New Rail Alphabet Bold.ttf');
+  src: url('fonts/A2-Type New Rail Alphabet Bold.ttf');
 }
 
 .container {
