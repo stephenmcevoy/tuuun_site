@@ -1,3 +1,12 @@
+var circle = new Path.Circle(new Point(80, 50), 35);
+circle.fillColor = 'red';
+
+var circle2 = new Path.Circle(new Point(120, 50), 35);
+circle2.fillColor = 'blue';
+
+// Set the blend mode of circle2:
+circle2.blendMode = 'multiply';
+
 var points = 25;
 
 // The distance between the points:
