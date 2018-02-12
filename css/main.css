@@ -20,6 +20,7 @@ h2 {
   margin-bottom: 0;
 }
 
+
 body {
   font-family: '02', 'Helvetica', sans-serif;
   font-size: 55px;
@@ -29,5 +30,28 @@ body {
 }
 
 a {
-    color: hotpink;
+    color: blue;
+}
+
+.container {
+  background-size: 120%;
+  background-image: url("image.jpg");
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: 50% 50%;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100vh;
+  /* overflow-x: hidden; */
+  overflow-y: scroll;
+  /* z-index: -1; */
+
+}
+
+.html-container {
+  transform: translateZ(-1px) scale(2);
+  position: relative;
+  height: 100vh;
+
+
 }
