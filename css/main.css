@@ -20,8 +20,7 @@
 }
 
 .dropdown-head:hover {
-  /* color: white;
-  background-color: black; */
+  cursor: pointer;
 }
 
 .release-title {
