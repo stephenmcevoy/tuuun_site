@@ -33,25 +33,29 @@ a {
     color: blue;
 }
 
+html, body {
+  height: 100vh;
+}
+
 .container {
-  background-size: 120%;
+  background-size: 100%;
   background-image: url("image.jpg");
   background-repeat: no-repeat;
   background-attachment: local;
   background-position: 50% 50%;
-  perspective: 1px;
+  /* perspective: 1px;
   transform-style: preserve-3d;
   height: 100vh;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
   overflow-y: scroll;
-  /* z-index: -1; */
+  z-index: -1; */
 
 }
 
 .html-container {
-  transform: translateZ(-1px) scale(2);
+  transform: translateZ(-1px) scale(1);
   position: relative;
-  height: 100vh;
+  height: 100%;
 
 
 }
