@@ -1,14 +1,22 @@
 .dropdown-content {
+  text-align: center;
   overflow:hidden;
-      max-height:0;
-      -webkit-transition:max-height 500ms ease;
-      -moz-transition:max-height 500ms ease;
-      -o-transition:max-height 500ms ease;
-      transition:max-height 500ms ease;
+  max-height:0;
+  padding: 0 15%;
+  -webkit-transition:max-height 500ms ease;
+  -moz-transition:max-height 500ms ease;
+  -o-transition:max-height 500ms ease;
+  transition:max-height 500ms ease, padding 500ms ease;
 }
 
+
 .visible {
-  max-height: 80px;
+  max-height: 340px;
+  padding: 3% 15%;
+}
+
+#player {
+  font-family: "Helvetica";
 }
 
 .dropdown-head:hover {

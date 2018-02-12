@@ -1,5 +1,17 @@
-console.log("loaded");
+$(document).ready(function(e) {
 
-$(".release").css("backgroundColor", "red");
+  console.log("loaded");
 
-$("h1").css("color", "red");
+$(".dropdown-head").click(function(x) {
+  x.stopPropagation();
+  $(".dropdown-head").not(this).find("div").removeClass("visible");
+  $(this).find(".dropdown-content").toggleClass("visible");
+
+});
+
+$(document).click(function(){
+  $(".dropdown-content").removeClass("visible");
+});
+
+
+});
