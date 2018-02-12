@@ -26,6 +26,12 @@ body {
   height: 100%;
   width: 100%;
   cursor: url(http://icons.iconarchive.com/icons/icons8/halloween/128/ghost-icon.png), auto;
+  animation: back 5s infinite;
+}
+@-webkit-keyframes back /* Safari and Chrome */ {
+    0% {background:#ffffff;}
+    50% {background:#c6f4f4;}
+    100% {background:#ffffff;}
 }
 
 a {
