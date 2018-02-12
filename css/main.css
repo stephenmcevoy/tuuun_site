@@ -1,8 +1,17 @@
+@font-face {
+  font-family: '01';
+  src: url('fonts/01.ttf') format('truetype');
+}
+@font-face {
+  font-family: '02';
+  src: url('fonts/02.ttf') format('truetype');
+}
+
 h1 {
   font-family: 'Space Mono', monospace;
   font-weight: bold;
-  font-size: 145px;
-  margin-top: 0;
+  font-size: 200px;
+  margin: 0;
 }
 
 h2 {
@@ -12,7 +21,7 @@ h2 {
 }
 
 body {
-  font-family: 'Helvetica', sans-serif;
+  font-family: '01', 'Helvetica', sans-serif;
   font-size: 55px;
   height: 100%;
   width: 100%;
