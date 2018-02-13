@@ -30,7 +30,9 @@ body {
 }
 
 a {
-    color: blue;
+    color: hotpink;
+    font-family: '01', 'Helvetica', 'sans-serif'
+
 }
 
 html, body {
@@ -39,21 +41,21 @@ html, body {
 
 .container {
   background-size: 100%;
-  background-image: url("image.jpg");
+  background-image: url("images/image02.png");
   background-repeat: no-repeat;
   background-attachment: local;
   background-position: 50% 50%;
-  /* perspective: 1px;
-  transform-style: preserve-3d;
+  perspective: 10px;
+  /* transform-style: preserve-3d; */
   height: 100vh;
   overflow-x: hidden;
   overflow-y: scroll;
-  z-index: -1; */
+  z-index: -1;
 
 }
 
 .html-container {
-  transform: translateZ(-1px) scale(1);
+  transform: translateZ(1px) scale(0.9);
   position: relative;
   height: 100%;
 
