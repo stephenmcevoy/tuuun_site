@@ -23,16 +23,23 @@ h2 {
 
 body {
   font-family: '02', 'Helvetica', sans-serif;
-  font-size: 55px;
+  font-size: 37px;
   height: 100%;
   width: 100%;
-    cursor: url(http://icons.iconarchive.com/icons/icons8/halloween/128/ghost-icon.png), auto;
 }
 
 a {
     color: hotpink;
-    font-family: '01', 'Helvetica', 'sans-serif'
+    font-family: '01', 'Helvetica', 'sans-serif;
+}
 
+#booking {
+  background-color: black;
+  color: white;
+}
+
+#booking:hover {
+  cursor: url(http://icons.iconarchive.com/icons/icons8/halloween/128/ghost-icon.png), auto;
 }
 
 html, body {
