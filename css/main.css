@@ -7,20 +7,9 @@
   src: url('fonts/02.ttf') format('truetype');
 }
 
-h1 {
-  font-weight: bold;
-  font-size: 200px;
-  margin: 0;
-}
-
-h2 {
-  border: 0;
-  margin-bottom: 0;
-}
-
 body {
   font-family: '02', 'Helvetica', sans-serif;
-  font-size: 37px;
+  font-size: 30px;
   height: 100%;
   width: 100%;
   word-wrap:break-word;
@@ -28,6 +17,10 @@ body {
 
 body img {
   width: 100%;
+}
+
+header {
+  margin-left: 20px;
 }
 
 header a {
@@ -40,12 +33,18 @@ body a {
   text-decoration: none;
 }
 
+body ::selection {
+  background-color: yellow;
+}
+
 a {
     font-family: '01', 'Helvetica', 'sans-serif;
+    color: black;
 }
 
 a:visited {
   color: black;
+  background: yellow;
 }
 
 a:hover {
@@ -66,7 +65,8 @@ a:hover {
 }
 
 .release-link {
-
+  float: left;
+  width: 100%;
 }
 
 .appearances-title {
@@ -97,6 +97,11 @@ a:hover {
 #twenty-ongoing-tones #tot-cover {
   width: 66%;
   float: center;
+}
+
+
+.html-container {
+  padding: 20px;
 }
 
 .center {
