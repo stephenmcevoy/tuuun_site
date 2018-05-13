@@ -24,6 +24,10 @@ body img {
   font-size: 1.95em;
 }
 
+a:link {
+  color: black;
+}
+
 .nav a {
   text-decoration: none;
   text-decoration-color: black;
