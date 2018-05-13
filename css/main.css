@@ -28,6 +28,11 @@ a:link {
   color: black;
 }
 
+a:active {
+  color: yellow;
+  background-color: yellow;
+}
+
 .nav a {
   text-decoration: none;
   text-decoration-color: black;
