@@ -19,12 +19,17 @@ body img {
   width: 100%;
 }
 
+img:hover {
+  filter: invert(100);
+}
+
 hr {
   color: blue;
   border-color: blue;
 }
 
 hr:hover {
+  color: hotpink;
   border-color: hotpink;
 }
 
