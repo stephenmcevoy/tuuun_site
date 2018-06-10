@@ -23,11 +23,11 @@ img:hover {
   filter: invert(100);
 }
 
-#portrait {
+#portrait, #mushroom {
   filter: invert(100);
 }
 
-#portrait:hover {
+#portrait:hover, #mushroom:hover {
   filter: invert(0);
 }
 
