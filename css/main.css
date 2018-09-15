@@ -32,6 +32,12 @@ img:hover {
   filter: invert(0);
 }
 
+#mushroom {
+  display: block;
+  width: 50%;
+  margin-left: 50%;
+}
+
 hr {
   color: blue;
   border-color: blue;
