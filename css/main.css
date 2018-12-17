@@ -15,9 +15,15 @@
   src: url('fonts/04.ttf') format('truetype');
 }
 
-/* html, body {
-  height: 100vh;
-} */
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    overflow: auto;
+}
 
 .tuuun {
   color: red;
