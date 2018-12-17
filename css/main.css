@@ -7,81 +7,56 @@
   src: url('fonts/02.ttf') format('truetype');
 }
 
+html, body {
+  height: 100vh;
+}
+
+.tuuun {
+  font-family: '01', 'Helvetica', sans-serif;
+  display: block;
+  color: red;
+}
+
+.heading {
+  font-style: oblique;
+}
+
 body {
   font-family: '02', 'Helvetica', sans-serif;
-  font-size: 2em;
-  line-height: 2em;
+  font-size: 3em;
+  line-height: 1.4em;
   height: 100%;
   width: 100%;
   word-wrap:break-word;
-}
-
-body img {
-  width: 100%;
-}
-
-img:hover {
-  filter: invert(100);
-}
-
-#portrait, #mushroom {
-  filter: invert(100);
-}
-
-#portrait:hover, #mushroom:hover {
-  filter: invert(0);
-}
-
-#mushroom {
-  display: block;
-  width: 90%;
-  margin: 0 auto;
-}
-
-hr {
-  color: blue;
-  border-color: blue;
-}
-
-hr:hover {
-  color: hotpink;
-  border-color: hotpink;
-}
-
-.nav {
-  margin-left: 20px;
-  font-size: 1.95em;
-}
-
-a:link {
-  color: black;
-}
-
-a:active {
-  color: yellow;
-  background-color: yellow;
-}
-
-
-.nav a {
-  text-decoration: none;
-  text-decoration-color: black;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-body a {
-  /* text-decoration: none; */
-  /* text-decoration-color: black; */
 }
 
 body ::selection {
   background-color: yellow;
 }
 
+img {
+  display:none;
+  width: 50%;
+  left: 25%;
+  position: relative;
+}
+
+.description {
+  display: none;
+}
+
+.title:hover, .expand:hover {
+  cursor: pointer;
+}
+
 a {
     font-family: '01', 'Helvetica', 'sans-serif;
     color: black;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
 }
 
 a:visited {
@@ -90,92 +65,18 @@ a:visited {
 
 a:hover {
   color: blue;
-  background-color: hotpink;
+  /* background-color: hotpink; */
 }
 
-#booking {
-  background-color: black;
-  color: white;
+a:active {
+  color: yellow;
+  background-color: yellow;
 }
 
-#booking:hover {
-  cursor: url(http://icons.iconarchive.com/icons/icons8/halloween/128/ghost-icon.png), auto;
+.bluetext {
+  color: blue;
 }
 
-.video-responsive{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
-}
-.video-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-}
-
-.release-images {
-  width: 100%;
-}
-
-.release-link {
-  float: left;
-  width: 100%;
-}
-
-.appearances-title {
-  /* text-align: center; */
-  font-size:1.6em;
-  height: 1.7em;
-}
-
-.blink_me {
-  animation: blinker 1s linear infinite;
-}
-
-@keyframes blinker {
-  50% {
-    opacity: 0;
-  }
-}
-
-#fmtrax img {
-  width: 50%;
-  float: left;
-}
-
-#twenty-ongoing-tones img {
-  width: 33%;
-  float: left;
-}
-
-#twenty-ongoing-tones #tot-cover {
-  width: 66%;
-  float: center;
-}
-
-.vbar:hover {
-  opacity: 0;
-}
-
-
-.html-container {
-  padding: 20px;
-}
-
-.center {
-  display: block;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-html, body {
-  height: 100vh;
-}
-
-.container {
-  margin-top: 10px;
+.redtext {
+  color: red;
 }
