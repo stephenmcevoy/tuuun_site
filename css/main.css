@@ -6,25 +6,31 @@
   font-family: '02';
   src: url('fonts/02.ttf') format('truetype');
 }
+@font-face {
+  font-family: '03';
+  src: url('fonts/03.ttf') format('truetype');
+}
+@font-face {
+  font-family: '04';
+  src: url('fonts/04.ttf') format('truetype');
+}
 
 html, body {
   height: 100vh;
 }
 
 .tuuun {
-  font-family: '01', 'Helvetica', sans-serif;
-  display: block;
   color: red;
 }
 
 .heading {
-  font-style: oblique;
+  font-family: '04', 'Helvetica', sans-serif;
 }
 
 body {
-  font-family: '02', 'Helvetica', sans-serif;
+  font-family: '03', 'Helvetica', sans-serif;
   font-size: 3em;
-  line-height: 1.4em;
+  line-height: 1.2em;
   height: 100%;
   width: 100%;
   word-wrap:break-word;
@@ -36,8 +42,8 @@ body ::selection {
 
 img {
   display:none;
-  width: 50%;
-  left: 25%;
+  width: 33%;
+  left: 33%;
   position: relative;
 }
 
@@ -50,7 +56,6 @@ img {
 }
 
 a {
-    font-family: '01', 'Helvetica', 'sans-serif;
     color: black;
 }
 
