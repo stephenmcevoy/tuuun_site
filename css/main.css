@@ -15,6 +15,7 @@ body {
 
 .heading {
   font-family: 'IBM Plex Sans', sans-serif;
+  font-style: italic;
 }
 
 #top_p {
