@@ -1,15 +1,7 @@
-@font-face {
-  font-family: '03';
-  src: url('/fonts/03.ttf') format('truetype');
-}
-@font-face {
-  font-family: '04';
-  src: url('/fonts/04.ttf') format('truetype');
-}
-
 html {
     overflow: hidden;
     height: 100%;
+    margin-top: 0;
 }
 
 body {
@@ -22,11 +14,15 @@ body {
 }
 
 .heading {
-  font-family: '04', 'Helvetica', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#top_p {
+  margin-top: 0;
 }
 
 body {
-  font-family: '03', 'Helvetica', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-size: 3em;
   line-height: 1.2em;
   height: 100%;
