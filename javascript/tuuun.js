@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function(e) {
 
   $(".expand").click(function() {
   // alert("clicked!");
