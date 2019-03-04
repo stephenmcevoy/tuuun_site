@@ -109,14 +109,7 @@ a:active {
 	90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
 	100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
 }
-/* img:hover,
-img:focus {
-	-webkit-animation-name: shake;
-	-webkit-animation-duration: 0.5s;
-	-webkit-transform-origin:50% 50%;
-	-webkit-animation-iteration-count: infinite;
-	-webkit-animation-timing-function: linear;
-} */
+
 img {
 	-webkit-animation-name: shake;
 	-webkit-animation-duration: 0.5s;
