@@ -7,11 +7,11 @@ html {
 body {
     height: 100%;
     overflow: auto;
-    text-align: justify;
+    text-align: left;
 }
 
 .container {
-  width: 66%;
+  width: 45%;
   margin: 0 auto;
 }
 
@@ -24,7 +24,7 @@ body {
 }
 
 .heading {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
 }
 
@@ -33,10 +33,10 @@ body {
 }
 
 body {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
-  font-size: 3em;
-  line-height: 1.2em;
+  font-size: 1.75em;
+  line-height: 1.1em;
   height: 100%;
   width: 100%;
   word-wrap:break-word;
