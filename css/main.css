@@ -10,6 +10,13 @@ body {
     text-align: left;
 }
 
+@media max-width:500px {
+    .container {
+      width: 90%;
+      margin: 0 auto;
+    }
+}
+
 .container {
   width: 45%;
   margin: 0 auto;
